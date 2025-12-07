@@ -1,4 +1,5 @@
 <Solution>
+  <Project Path="AgentStructuredOutput/AgentStructuredOutput.csproj" Id="19979894-3d4a-4a26-ac7a-106c69f1f0a4" />
   <Project Path="SimpleWorkflow/SimpleWorkflow.csproj" />
   <Project Path="TaskClassifierWorkflow/TaskClassifierWorkflow.csproj" />
 </Solution>
