@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="SimpleWorkflow/SimpleWorkflow.csproj" />
+  <Project Path="TaskClassifierWorkflow/TaskClassifierWorkflow.csproj" />
+</Solution>
