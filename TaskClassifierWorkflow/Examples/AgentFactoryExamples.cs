@@ -1,7 +1,9 @@
 using Microsoft.Agents.AI;
 using Microsoft.Agents.AI.Workflows;
 using Microsoft.Extensions.AI;
-using TaskClassifierWorkflow;
+using TaskClassifierWorkflow.Factories;
+using TaskClassifierWorkflow.Executors;
+using TaskClassifierWorkflow.Models;
 
 namespace TaskClassifierWorkflow.Examples;
 
@@ -189,11 +191,6 @@ public static class AgentFactoryExamples
         Console.WriteLine("Factory pattern allows easy testing and configuration changes");
     }
 }
-
-/// <summary>
-/// Sample data model for demonstration.
-/// </summary>
-public record TaskData(string Title, string Description);
 
 /// <summary>
 /// Mock factory implementation for testing.

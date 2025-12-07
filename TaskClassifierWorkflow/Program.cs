@@ -4,7 +4,8 @@ using Microsoft.Agents.AI;
 using Microsoft.Agents.AI.Workflows;
 using Microsoft.Extensions.AI;
 using Microsoft.Extensions.Configuration;
-using TaskClassifierWorkflow;
+using TaskClassifierWorkflow.Factories;
+using TaskClassifierWorkflow.Executors;
 using OpenAI;
 using OpenAI.Chat;
 
